@@ -2,6 +2,8 @@
 
 An **AI-powered website builder** that uses LLM to help users describe and generate websites seamlessly. This project is a powerful wrapper for LLMs & uses WebContaineres enable users to build and execute JavaScript, TypeScript, and Node.js code directly in the browser.
 
+No live preview as i used up all my Claude tokens 😅
+
 ## Key Features ✨
 
 - **AI-Powered Website Generation**: Leverages LLMs to interpret user input and generate tailored website templates.
