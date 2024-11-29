@@ -65,3 +65,6 @@ Before running the project, ensure you have the following installed:
     pnpm build
     serve -s dist
     ```
+## Screenshot
+
+![Screenshot (481)](https://github.com/user-attachments/assets/a8ce6631-b643-49d1-8a90-5a14aafe006e)
