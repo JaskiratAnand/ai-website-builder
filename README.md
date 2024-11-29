@@ -12,7 +12,6 @@ An **AI-powered website builder** that uses LLM to help users describe and gener
   - **WebContainers**: For browser-native code execution and bundling.
 - **Real-Time Preview**: Instantly preview the generated website within the browser.
 
----
 
 ## Tech Stack 🛠️
 
@@ -24,25 +23,23 @@ An **AI-powered website builder** that uses LLM to help users describe and gener
 | AI Integration   | LLM APIs (e.g., Anthropic Claude) |
 | Language Support | JavaScript, TypeScript  |
 
----
 
 ## Prerequisites ✅
 
 Before running the project, ensure you have the following installed:
 
-- **Node.js** (v16+)
+- **Node.js** (v20+)
 - **pnpm**
 - Modern web browser (Chrome/Edge recommended for WebContainers)
 
----
-
 ## Installation & Setup 🔧
 
-1. **Clone the Repository**:
+1. Clone the Repository:
     ```bash
     cd ai-website-builder
     ```
-2. **Install Dependencies for frontend & backend**:
+
+2. Install Dependencies for frontend & backend:
     ```bash
     cd backend
     pnpm install
@@ -50,16 +47,19 @@ Before running the project, ensure you have the following installed:
     cd frontend 
     pnpm install
     ```
-3. **Create .env file & add your API_KEY**
+
+3. Create .env file & add your API_KEY:
     ```bash
     ANTHROPIC_API_KEY=""
     ```
-4. **Start backend**
+
+4. Start backend
     ```bash
     cd backend
     pnpm serve
     ```
-5. **Start frontend**
+
+5. Start frontend
     ```bash
     cd frontend
     pnpm build
