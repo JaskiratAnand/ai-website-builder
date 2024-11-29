@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "npx tsc -b",
-    "dev": "npx tsc -b && node dist/index.js"
+    "dev": "npx tsc -b && node dist/index.js",
+    "serve": "npx tsc -b && node dist/index.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
